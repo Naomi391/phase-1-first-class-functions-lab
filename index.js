@@ -20,10 +20,14 @@ const createFareMultiplier = function (multiply) {
     return multiply * fare;
   };
 };
+//const thingToReturn = createFareMultiplier(multiply); - Assign it to a new variable
+//console.log(thingToReturn()); - use this to see what is in the function
 
 const fareDoubler = createFareMultiplier(2);
+//console.log(fareDoubler()); - To see the details inside the function
 
 const fareTripler = createFareMultiplier(3);
+//console.log(fareTripler()); - To see what's on the inside of the function
 
 function selectDifferentDrivers(arrayOfDrivers, selectorFunction) {
   return selectorFunction(arrayOfDrivers);
